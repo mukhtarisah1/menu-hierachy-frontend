@@ -16,7 +16,7 @@ const MenuManagement = () => {
 
   useEffect(() => {
     axios
-      .get("http://127.0.0.1:8000/api/menus")
+      .get("https://menu.symlink.com.ng/api/menus")
       .then(response => {
         setMenus(response.data);
         if (response.data.length > 0) {
@@ -36,7 +36,7 @@ const MenuManagement = () => {
   const handleMenuChange = event => {
     const id = event.target.value;
     axios
-      .get(`http://127.0.0.1:8000/api/menus/${id}`)
+      .get(`https://menu.symlink.com.ng/api/menus/${id}`)
       .then(response => {
         const parentMenu = menus.find(
           menu => menu.id === response.data.parent_id
@@ -70,7 +70,7 @@ const MenuManagement = () => {
       .getAttribute("content");
 
     axios
-      .post("http://127.0.0.1:8000/api/menus", formData, {
+      .post("https://menu.symlink.com.ng/api/menus", formData, {
         headers: {
           "X-CSRF-TOKEN": csrfToken,
           "Content-Type": "application/json",
