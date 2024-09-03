@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.app-container {
+ position: relative;
+    width: 1440px;
+    height: 1080px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+/* .property-default {
+    position: relative;
+    width: 1440px;
+    height: 1080px;
+    background-color: rgba(255, 255, 255, 1);
+  } */
+
+
+
+
+.header {
+  padding: 20px;
+  border-bottom: 1px solid #E5E7EB;
+}
+
+.menu-management {
+  padding: 20px;
+}
+
+.menu-management select {
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid #D1D5DB;
+}
+
+.menu-management button {
+  padding: 10px 15px;
+  background-color: #E5E7EB;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.menu-management input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #D1D5DB;
+}
+
+.menu-management button.save {
+  background-color: #4F46E5;
+  color: #fff;
+}

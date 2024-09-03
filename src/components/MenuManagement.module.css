@@ -1,0 +1,136 @@
+.menuManagement {
+    padding: 20px;
+  }
+  .btnContainer{
+   
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 8px;
+    position: absolute;
+    top: 140px;
+    left: 312px;
+  }
+  .controls {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .dropdown {
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #D1D5DB;
+  }
+  
+  .controlButton {
+    padding: 10px 15px;
+    margin-right: 10px;
+    background-color: #E5E7EB;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .content {
+    display: flex;
+    gap: 40px;
+  }
+  
+  .menuTree {
+    flex: 2;
+    margin-top: 40px;
+  }
+  
+  .treeList, .treeSubList {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .treeSubList {
+    padding-left: 20px;
+    margin-top: 10px;
+  }
+  
+  .form {
+    flex: 1;
+  }
+  
+  .formGroup {
+    margin-bottom: 20px;
+  }
+  
+  .formLabel {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .formInput {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #D1D5DB;
+  }
+  
+  .saveButton {
+    /* padding: 10px 15px; */
+    background-color: #4F46E5;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    height: 52px;
+    gap: 10px;
+    padding: 14px 32px;
+    align-self: stretch;
+    width: 100%;
+    /* background-color: var(--color-arctic-blue-600); */
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: 48px;
+    overflow: hidden;
+  }
+  
+  /* Styles for the tree list */
+.treeList {
+  list-style-type: none;
+  padding-left: 20px; /* Indent the tree list */
+}
+
+.treeSubList {
+  list-style-type: none;
+  padding-left: 20px; /* Indent sub-lists further */
+}
+
+/* Styles for the arrow */
+.arrow {
+  display: inline-block;
+  margin-left: 8px;
+  font-size: 12px;
+  transform: rotate(90deg); /* Rotate the arrow to point right */
+  transition: transform 0.2s ease;
+}
+
+/* Optional: Style for collapsing/expanding arrows */
+.treeList li.collapsed > .arrow {
+  transform: rotate(0deg); /* Rotate arrow back to point right */
+}
+
+.treeList li.expanded > .arrow {
+  transform: rotate(90deg); /* Rotate arrow to point down */
+}
+
+/* Optional: Style for nested menu items */
+.treeList li {
+  cursor: pointer;
+  margin: 5px 0;
+  position: relative;
+}
+
+.treeList li span {
+  padding-left: 5px;
+}

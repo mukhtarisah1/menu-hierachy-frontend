@@ -1,0 +1,119 @@
+
+
+.sidebar {
+    width: 250px;
+    background: #111827;
+    padding: 20px;
+    color: #fff;
+
+    width: 240px;
+    
+    background-color: #111827;
+    border-radius: 24px;
+    overflow: hidden;
+   
+  }
+
+
+  .logo {
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .content {
+    display: inline-flex;
+    flex-direction: column;
+    height: 942px;
+    align-items: flex-start;
+    gap: 98px;
+    padding: 10px 16px;
+    position: absolute;
+    top: 84px;
+    left: 0;
+}
+  .menuList {
+    list-style: none;
+    padding-left: 0;
+
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 8px 8px;
+    position: relative;
+    background-color: rgba(29, 41, 57, 1);
+    border-radius: 16px;
+    overflow: hidden;
+    width: 230px;
+
+  }
+  
+  .menuItem {
+    margin-bottom: 18px;
+    display: flex;
+    width: 208px;
+    height: 48px;
+    align-items: center;
+    gap: 16px;
+   
+    position: relative;
+
+  }
+  
+  .menuLink {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+     /* color: #9CA3AF; */
+    text-decoration: none;
+     margin-bottom: 20px;
+    display: flex;
+    width: 208px;
+    height: 48px;
+    align-items: center;
+    gap: 16px;
+   
+    position: relative;
+  }
+  
+  .activeLink {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    width: 208px;
+    align-items: center;
+    gap: 16px;
+    padding: 12px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color:  rgba(159, 244, 67, 1);
+    border-radius: 16px;
+  }
+  
+  .subMenu {
+    padding-left: 20px;
+    margin-top: 10px;
+  }
+  
+  /* .subMenuLink {
+   
+  } */
+
+  .logo {
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .toggleHead {
+  display: flex;
+  width: 247px;
+  align-items: center;
+  justify-content: space-between;
+ 
+  position: absolute;
+  top: 20px;
+
+  background-color: transparent;
+  }
+  
